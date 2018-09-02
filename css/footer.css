@@ -83,14 +83,18 @@ Footer Style
     border: none;
     background-color: #5e42b0;
     margin-bottom: 262px;
-
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 14px;
     padding-bottom: 18px;
+    outline: none;
+    cursor: pointer;
+}
 
+.footer-buttons button:hover {
+    background-color: #4c3e97;
 }
 
 .footer-buttons button:first-child {

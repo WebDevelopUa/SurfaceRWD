@@ -28,6 +28,10 @@ body {
     min-width: 360px;
 }
 
+a:focus {
+    outline: none;
+}
+
 .container {
     box-sizing: border-box;
     max-width: 1920px;
