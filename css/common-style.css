@@ -25,7 +25,7 @@ body {
     font-weight: 400;
     background-color: white;
     margin: 0;
-    min-width: 320px;
+    min-width: 360px;
 }
 
 .container {
@@ -33,6 +33,7 @@ body {
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
 
 .section {
@@ -45,23 +46,14 @@ body {
 /* surface_desktop.psd */
 @media (min-width: 961px)  and (max-width: 1920px) {
 
-    .container {
-        padding: 20px;
-    }
 }
 
 /* surface_768.psd */
 @media (min-width: 768px) and (max-width: 960px) {
 
-    .container {
-        padding: 20px;
-    }
 }
 
 /* surface_320.psd */
 @media (max-width: 767px) {
 
-    .container {
-        padding: 20px;
-    }
 }
