@@ -1,3 +1,26 @@
 /**
 Section #1 Style
 */
+
+.section-one {
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+/* Media Queries for Section #1 Style  */
+
+/* surface_desktop.psd */
+@media (min-width: 961px)  and (max-width: 1920px) {
+
+}
+
+/* surface_768.psd */
+@media (min-width: 768px) and (max-width: 960px) {
+
+}
+
+/* surface_320.psd */
+@media (max-width: 767px) {
+
+}

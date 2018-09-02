@@ -35,6 +35,11 @@ body {
     margin-right: auto;
 }
 
+.section {
+    height: 730px;
+    width: 100%;
+}
+
 /* Media Queries for Common Style  */
 
 /* surface_desktop.psd */
