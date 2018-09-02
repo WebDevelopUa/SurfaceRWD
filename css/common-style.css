@@ -1,5 +1,5 @@
 /**
-Common Style
+    Common Style
 */
 
 @font-face {
@@ -25,50 +25,38 @@ body {
     font-weight: 400;
     background-color: white;
     margin: 0;
-}
-
-.example {
-    color: darkred;
+    min-width: 320px;
 }
 
 .container {
     box-sizing: border-box;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media (min-width: 961px)  and ( max-width: 1560px) {
+/* Media Queries for Common Style  */
 
-    .example {
-        color: tomato;
-    }
+/* surface_desktop.psd */
+@media (min-width: 961px)  and (max-width: 1920px) {
 
     .container {
-        padding-left: 24px;
-        padding-right: 24px;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 20px;
     }
 }
 
+/* surface_768.psd */
 @media (min-width: 768px) and (max-width: 960px) {
 
-    .example {
-        color: blue;
-    }
-
     .container {
-        padding-left: 48px;
-        padding-right: 48px;
+        padding: 20px;
     }
 }
 
+/* surface_320.psd */
 @media (max-width: 767px) {
 
-    .example {
-        color: green;
-    }
-
     .container {
-        padding-left: 32px;
-        padding-right: 32px;
+        padding: 20px;
     }
 }
