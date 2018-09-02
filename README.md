@@ -96,7 +96,7 @@ Surface project mock up
 
 #### Публикация проекта
     
-    GitHub Pages
+    GitHub Pages: https://webdevelopua.github.io/SurfaceRWD/
     
 #### PSD
 
