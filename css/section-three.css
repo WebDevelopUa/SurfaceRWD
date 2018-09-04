@@ -3,10 +3,11 @@ Section #3 Style
 */
 
 .section-three {
-    width: 100%;
-    height: 100%;
-    background-color: aliceblue;
+    /*flex-direction: column;*/
+    /*background-color: teal;*/
 }
+
+
 
 /* Media Queries for Section #3 Style  */
 

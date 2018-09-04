@@ -3,24 +3,82 @@ Section #1 Style
 */
 
 .section-one {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 100%;
-    background-color: aliceblue;
+    /*background-color: mediumspringgreen;*/
+}
+
+.athlete-img {
+    position: absolute;
+    left: 50%;
+    margin-left: -566px;
+    width: 566px;
+    /*width: 50%;*/
+    height: 908px;
+    background: url("../images/footballer_566.png") no-repeat;
+    background-size: contain;
+    margin-top: 27px;
+    z-index: 2;
+}
+
+.athlete-list-item,
+.athlete-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 53%;
+}
+
+.athlete-heading {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 0.75;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: #e7e7e7;
+}
+
+.athlete-list-item dl {
+    width: 100%;
+    max-width: 700px;
+}
+
+.athlete-list-item dt {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #c1c1c1;
+}
+
+.athlete-list-item dd {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: black;
 }
 
 /* Media Queries for Section #1 Style  */
 
-/* surface_desktop.psd */
-@media (min-width: 961px)  and (max-width: 1920px) {
-
-}
-
 /* surface_768.psd */
 @media (min-width: 768px) and (max-width: 960px) {
-
+    .athlete-img {
+        background: url("../images/footballer_497.png") no-repeat;
+    }
 }
 
 /* surface_320.psd */
 @media (max-width: 767px) {
-
+    .athlete-img {
+        background: url("../images/footballer_192.png") no-repeat;
+    }
 }

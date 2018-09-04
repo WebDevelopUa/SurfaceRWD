@@ -3,10 +3,11 @@ Section #2 Style
 */
 
 .section-two {
-    width: 100%;
-    height: 100%;
-    background-color: ghostwhite;
+    flex-direction: column;
+    /*background-color: #2196F3;*/
 }
+
+
 
 /* Media Queries for Section #2 Style  */
 
