@@ -25,7 +25,7 @@ body {
     font-weight: 400;
     background-color: white;
     margin: 0;
-    min-width: 360px;
+    min-width: 320px;
 }
 
 a:focus {
@@ -112,5 +112,10 @@ a:focus {
 
 /* surface_320.psd */
 @media (max-width: 767px) {
-
+    .row-one {
+        height: 210px;
+        padding-top: 15px;
+        padding-bottom: 100px;
+        align-items: unset;
+    }
 }

@@ -124,6 +124,7 @@ Section #1 Style
         font-size: 32px;
         line-height: 2.5;
     }
+
     .athlete-list-item dd {
         font-size: 16px;
         line-height: 1.75;
@@ -131,12 +132,54 @@ Section #1 Style
         color: black;
     }
 
-
 }
 
 /* surface_320.psd */
 @media (max-width: 767px) {
     .athlete-img {
-        background: url("../images/footballer_192.png") no-repeat;
+        background: url("../images/footballer_192.png") no-repeat center top;
+
+        left: unset;
+        margin-left: unset;
+        width: 100%;
+        height: 281px;
+        background-size: contain;
+        margin-top: 80px;
+        z-index: 2;
     }
+
+    .athlete-heading {
+        font-size: 50px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+    }
+
+    .athlete-list-item,
+    .athlete-heading {
+        padding-left: 20px;
+    }
+
+    .athlete-list-item dl {
+        width: 98%;
+        max-width: 98%;
+    }
+
+    .athlete-list-item dt {
+        font-size: 23px;
+        line-height: 2;
+    }
+
+    .athlete-list-item dt:before {
+        font-size: 14px;
+        border-bottom: 4px solid;
+        border-color: #5e42b0;
+    }
+
+    .athlete-list-item dd {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
 }
